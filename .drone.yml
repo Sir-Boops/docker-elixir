@@ -1,0 +1,9 @@
+pipeline:
+    docker:
+        image: plugins/docker
+        dockerfile: Dockerfile
+        repo: sirboops/elixir
+        tags: 1.7.4-alpine
+        experimental: true
+        squash: true
+        secrets: [ docker_username, docker_password ]
