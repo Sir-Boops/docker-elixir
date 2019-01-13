@@ -18,6 +18,7 @@ RUN apk upgrade && \
 	rm -rf ~/*
 
 # Add OTP to PATH
+ENV PATH="$PATH:/opt/otp/bin"
 
 # Build elixir
 RUN cd ~ && \
