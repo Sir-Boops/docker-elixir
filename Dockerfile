@@ -1,6 +1,6 @@
-FROM alpine:3.8
+FROM alpine:3.9
 
-ENV OTP_VER="21.2"
+ENV OTP_VER="21.3"
 ENV ELX_VER="1.8.1"
 
 # Build OTP
