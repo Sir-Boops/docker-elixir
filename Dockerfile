@@ -1,7 +1,7 @@
 FROM alpine:3.9
 
-ENV OTP_VER="22.0"
-ENV ELX_VER="1.8.2"
+ENV OTP_VER="22.0.4"
+ENV ELX_VER="1.9.0"
 
 # Build OTP
 RUN apk upgrade && \
